@@ -23,3 +23,11 @@ Report classification performance against a set of examples
         PRE    0.60821   pred_thresh  0.000000
         REC    0.23453   pred_thresh  0.000000
         ROC    0.70345
+
+## eval-regression.sh
+
+Report regression performance against a set of examples
+
+    > bash eval-regression.sh bfgs.model test.vw
+        RMSE: 79.757854
+        RSQR: 0.277733
